@@ -77,7 +77,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.						 
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+[cloud security HW 12 (1).pdf](https://github.com/dfaversa/Df_Azure/files/6119588/cloud.security.HW.12.1.pdf)
+![project azure 1 pic](https://user-images.githubusercontent.com/73912396/110716798-d5ce0d00-81d5-11eb-848d-6b581b5761bc.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:		10.0.0.4											10.0.0.8											10.0.0.9											10.0.0.10
