@@ -1,8 +1,9 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+[cloud security HW 12 (1).pdf](https://github.com/dfaversa/Df_Azure/files/6119605/cloud.security.HW.12.1.pdf)
 
-![project azure 1 pic](https://user-images.githubusercontent.com/73912396/110716798-d5ce0d00-81d5-11eb-848d-6b581b5761bc.PNG)
+
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml_____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._             	root@4d2c8d5a2466:~# /etc/ansible/roles/filebeat-playbook.y		 root@4d2c8d5a2466:~# /etc/ansible/roles/elk-playbook 				root@4d2c8d5a2466:~# /etc/ansible/roles/metricbeat-playbook.yml
@@ -105,10 +106,12 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running? http://20.36.137.243:5601/app/kabana																																																						As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 													To create the filebeat-config.yml file: nano filebeat-config.yml..
 I created the playbook: nano filebeat-playbook.yml
- To run the playbook: ansible-playbook filebeat-playbook.yml
+![launching filebeat](https://user-images.githubusercontent.com/73912396/110720182-23e60f00-81dc-11eb-8fa3-277a50521ef0.png)
+																						 To run the playbook: ansible-playbook filebeat-playbook.yml
 In order to run the playbook, you have to be in the directory. Or navigate into the path (ansible-playbook /etc/ansible/roles/filebeat-playbook) To create the metricbeat-config.yml file: nano metricbeat-config.yml.
 I created the playbook: nano metricbeat-playbook.yml
- 
+ ![launching metricbeat](https://user-images.githubusercontent.com/73912396/110720215-3102fe00-81dc-11eb-9ef3-734ac0ce4712.png)
+
 ________________________________________
  Run the playbook: ansible-playbook metricbeat-playbook.yml
 In order to run this playbook, you must be in the directory where the playbook is, or use the path (ansible-playbook /etc/ansible/roles/metricbeat-playbook.yml)
