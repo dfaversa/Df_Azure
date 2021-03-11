@@ -113,5 +113,5 @@ I created the playbook: nano metricbeat-playbook.yml
 
 ________________________________________
  Run the playbook: ansible-playbook metricbeat-playbook.yml
-In order to run this playbook, you must be in the directory where the playbook is, or use the path (ansible-playbook /etc/ansible/roles/metricbeat-playbook.yml)
+In order to run this playbook, you must be in the directory where the playbook is, or use the path (ansible-playbook /etc/ansible/roles/metricbeat-playbook.yml).
 
