@@ -81,7 +81,7 @@ The following screenshot displays the result of running `docker ps` after succes
 ![project azure 1 pic](https://user-images.githubusercontent.com/73912396/110716798-d5ce0d00-81d5-11eb-848d-6b581b5761bc.PNG)
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines:		10.0.0.4											10.0.0.8											10.0.0.9											10.0.0.10
+This ELK server is configured to monitor the following machines: 10.0.0.4 10.0.0.8 10.0.0.9 10.0.0.10
 
 We have installed the following Beats on these machines:
  Filebeat was successfully installed
