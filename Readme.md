@@ -1,7 +1,7 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-[cloud security HW 12 (1).pdf](https://github.com/dfaversa/Df_Azure/files/6119605/cloud.security.HW.12.1.pdf)
+https://drive.google.com/file/d/1T4746ylggMLYUuxT_ovpvQDZh1LDdn-n/view?usp=sharing
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml_____ file may be used to install only certain pieces of it, such as Filebeat.
