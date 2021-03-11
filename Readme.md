@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to HTTP://20.36.137.243:5601/app/kabana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_filebeat-playbook.yml  								       	Which file do you update to make Ansible run the playbook on a specific machine? Metricbeat-config.yml to include ELK on private IP on lines 62 and 96										  How do I specify which machine to install the ELK server on versus which to install Filebeat on? In the etc/ansible/hosts file two groups must be specified. One group is  the webservers which have the IPs of the VMs, and the other group are the elkservers.
+- _Which file is the playbook? Where do you copy it?_filebeat-playbook.yml  								       					Which file do you update to make Ansible run the playbook on a specific machine? Metricbeat-config.yml to include ELK on private IP on lines 62 and 96				 How do I specify which machine to install the ELK server on versus which to install Filebeat on? In the etc/ansible/hosts file two groups must be specified. One group is  the webservers which have the IPs of the VMs, and the other group are the elkservers.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://20.36.137.243:5601/app/kabana																																																						As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 													To create the filebeat-config.yml file: nano filebeat-config.yml..
 I created the playbook: nano filebeat-playbook.yml
