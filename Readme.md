@@ -77,7 +77,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.						 
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![image](https://user-images.githubusercontent.com/73912396/110862011-eee5c500-828c-11eb-8706-e8f522283646.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:		10.0.0.4											10.0.0.8											10.0.0.9											10.0.0.10
@@ -103,11 +104,13 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_filebeat-playbook.yml  								       	Which file do you update to make Ansible run the playbook on a specific machine? Metricbeat-config.yml to include ELK on private IP on lines 62 and 96										  How do I specify which machine to install the ELK server on versus which to install Filebeat on? In the etc/ansible/hosts file two groups must be specified. One group is  the webservers which have the IPs of the VMs, and the other group are the elkservers.
 - _Which URL do you navigate to in order to check that the ELK server is running? http://20.36.137.243:5601/app/kabana																																																						As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 													To create the filebeat-config.yml file: nano filebeat-config.yml..
-I created the playbook: nano filebeat-playbook.yml
+I created the playbook: nano filebeat-playbook.yml																	![image](https://user-images.githubusercontent.com/73912396/110862116-1472ce80-828d-11eb-94ee-b2fed5691720.png)
+
  To run the playbook: ansible-playbook filebeat-playbook.yml
 In order to run the playbook, you have to be in the directory. Or navigate into the path (ansible-playbook /etc/ansible/roles/filebeat-playbook) To create the metricbeat-config.yml file: nano metricbeat-config.yml.
 I created the playbook: nano metricbeat-playbook.yml
- 
+ ![image](https://user-images.githubusercontent.com/73912396/110862146-1fc5fa00-828d-11eb-9bd5-3a574c1f392f.png)
+
 ________________________________________
  Run the playbook: ansible-playbook metricbeat-playbook.yml
 In order to run this playbook, you must be in the directory where the playbook is, or use the path (ansible-playbook /etc/ansible/roles/metricbeat-playbook.yml)
