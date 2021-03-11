@@ -2,8 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
-
+![project azure 1 pic](https://user-images.githubusercontent.com/73912396/110716798-d5ce0d00-81d5-11eb-848d-6b581b5761bc.PNG)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook.yml_____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._             	root@4d2c8d5a2466:~# /etc/ansible/roles/filebeat-playbook.y		 root@4d2c8d5a2466:~# /etc/ansible/roles/elk-playbook 				root@4d2c8d5a2466:~# /etc/ansible/roles/metricbeat-playbook.yml
@@ -12,7 +11,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 This document contains the following details:
 - Description of the Topologu
-- Access Policies
+-Access policies 
+
 - ELK Configuration
   - Beats in Use
   - Machines Being Monitored
